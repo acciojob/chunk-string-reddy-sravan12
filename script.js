@@ -1,4 +1,5 @@
 function stringChop(str, size) {
+	if (!str || str.length === 0) return [];
 	let out=[]
 	let string=''
   for(let i=1;i<=str.length;i++){
